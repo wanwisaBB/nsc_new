@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:background="#9bffffff" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ข้อมูลเรือ"
+                android:id="@+id/showab1"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold"
+                android:textColor="@color/text" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat2"
+                    android:id="@+id/showab2"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText37"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat3"
+                    android:id="@+id/showab3"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText38"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat4"
+                    android:id="@+id/showab4"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText47"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat5"
+                    android:id="@+id/showab5"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText48"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat6"
+                    android:id="@+id/showab6"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="3"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText49"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat7"
+                    android:id="@+id/showab7"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText50"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat8"
+                    android:id="@+id/showab8"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText51"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat9"
+                    android:id="@+id/showab9"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText52"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat10"
+                    android:id="@+id/showab10"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="3"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText53"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat11"
+                    android:id="@+id/showab11"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="4"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText54"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat12"
+                    android:id="@+id/showab12"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText55"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat13"
+                    android:id="@+id/showab13"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText56"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat14"
+                    android:id="@+id/showab14"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText57"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat15"
+                    android:id="@+id/showab15"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText58"
+                    android:layout_weight="2"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat16"
+                    android:id="@+id/showab16"
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/text" />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/showab17"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addboat18"
+                    android:id="@+id/showab19"
+                    android:layout_weight="1"
+                    android:onClick="clickEditAddBoat" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ย้อนกลับ"
+                    android:id="@+id/showab20"
+                    android:layout_weight="1"
+                    android:onClick="clickDeleteAddBoat" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

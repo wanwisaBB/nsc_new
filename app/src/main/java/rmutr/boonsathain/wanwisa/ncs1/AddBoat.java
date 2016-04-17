@@ -19,7 +19,7 @@ import com.squareup.okhttp.Response;
 import java.io.IOException;
 
 public class AddBoat extends AppCompatActivity {
-    
+
 
     //Explicit
     private EditText data2EditText, data3EditText, data4EditText,

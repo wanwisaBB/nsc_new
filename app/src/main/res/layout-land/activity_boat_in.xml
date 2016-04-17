@@ -207,19 +207,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="บันทึก"
-                    android:id="@+id/button9" />
+                    android:id="@+id/button9"
+                    android:onClick="boatInSave" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="แก้ไข"
-                    android:id="@+id/button10" />
+                    android:text="ล้างข้อมูล"
+                    android:id="@+id/button10"
+                    android:onClick="boatInClearText" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="เรียกดู"
-                    android:id="@+id/button11" />
+                    android:id="@+id/button11"
+                    android:onClick="boatInView" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
